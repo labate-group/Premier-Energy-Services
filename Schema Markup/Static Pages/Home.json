@@ -1,1 +1,6 @@
-
+{
+  "@type": "WebPage",
+  "@id": "https://premierenergyservices.org/{{slug}}/#webpage",
+  "url": "https://premierenergyservices.org/{{slug}}",
+  "name": "{{name}}"
+}
