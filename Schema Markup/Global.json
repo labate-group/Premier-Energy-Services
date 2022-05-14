@@ -1,6 +1,49 @@
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@graph": [
-  
-  ]
-}
+    {
+      "@type": "WebSite",
+      "@id": "https://premierenergyservices.org/#website",
+      "url": "https://premierenergyservices.org",
+      "name": "Premier Energy Services",
+      "potentialAction": [
+        {
+          "@type": "SearchAction",
+          "@id": "https://premierenergyservices.org/#searchaction",
+          "actionStatus": "potentialActionStatus",
+          "name": "Search",
+          "description": "Search anything on the Premier Energy Services website",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://premierenergyservices.org/search?query={search_term_string}"
+          },
+          "query-input": "name=search_term_string",
+          "result": "Agent has searched the Premier Energy Services website"
+        }
+      ]
+    },
+    {
+      "@type": "Local Business",
+      "@id": "https://premierenergyservices.org/#localbusiness",
+      "url": "https://premierenergyservices.org",
+      "name": "Premier Energy Services",
+    },
+    {
+      "@type": "Brand",
+      "@id": "https://premierenergyservices.org/#brand",
+      "url": "https://premierenergyservices.org",
+      "name": "Premier Energy Services",
+    },
+    {
+      "@type": "Logo",
+      "@id": "https://premierenergyservices.org/#logo",
+      "url": "",
+      "name": "Premier Energy Services Logo",
+    },
+    {
+      "@type": "AggregateRating",
+      "@id": "https://premierenergyservices.org/#aggragaterating",
+      "url": "https://premierenergyservices.org",
+      "name": "Premier Energy Services",
+    },
